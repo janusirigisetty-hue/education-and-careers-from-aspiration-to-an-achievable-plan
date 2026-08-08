@@ -1,0 +1,245 @@
+{
+  "project": {
+    "name": "Education & Careers: From Aspiration to an Achievable Plan",
+    "version": "1.0.0",
+    "description": "A structured education and career planning dataset that helps students turn aspirations into achievable, measurable plans.",
+    "audience": [
+      "school students",
+      "college students",
+      "graduates",
+      "career explorers"
+    ]
+  },
+  "career_planning_framework": {
+    "steps": [
+      {
+        "step": 1,
+        "name": "Discover",
+        "description": "Identify interests, strengths, values, and career aspirations."
+      },
+      {
+        "step": 2,
+        "name": "Explore",
+        "description": "Research education options, career roles, required skills, and opportunities."
+      },
+      {
+        "step": 3,
+        "name": "Plan",
+        "description": "Convert the aspiration into education, skill, and experience milestones."
+      },
+      {
+        "step": 4,
+        "name": "Act",
+        "description": "Complete courses, projects, internships, certifications, and other planned activities."
+      },
+      {
+        "step": 5,
+        "name": "Review",
+        "description": "Track progress and update the plan as goals, interests, or opportunities change."
+      }
+    ]
+  },
+  "career_paths": [
+    {
+      "id": "software-engineering",
+      "career": "Software Engineer",
+      "field": "Technology",
+      "education_options": [
+        "B.Tech / B.E. in Computer Science",
+        "B.Sc. in Computer Science",
+        "BCA",
+        "Relevant diploma or alternative learning pathway"
+      ],
+      "core_skills": [
+        "programming",
+        "data structures and algorithms",
+        "problem solving",
+        "Git and GitHub",
+        "databases",
+        "software development"
+      ],
+      "recommended_projects": [
+        "personal portfolio website",
+        "task management application",
+        "student management system",
+        "API-based application"
+      ],
+      "entry_level_roles": [
+        "Junior Software Developer",
+        "Graduate Software Engineer",
+        "Web Developer",
+        "QA Automation Engineer"
+      ]
+    },
+    {
+      "id": "data-analyst",
+      "career": "Data Analyst",
+      "field": "Data & Analytics",
+      "education_options": [
+        "B.Sc. in Statistics",
+        "B.Sc. in Mathematics",
+        "B.Tech / B.E.",
+        "BCA / Computer Science degree",
+        "Relevant analytics certification"
+      ],
+      "core_skills": [
+        "Excel",
+        "SQL",
+        "Python",
+        "statistics",
+        "data visualization",
+        "communication"
+      ],
+      "recommended_projects": [
+        "sales dashboard",
+        "student performance analysis",
+        "public dataset analysis",
+        "business KPI dashboard"
+      ],
+      "entry_level_roles": [
+        "Junior Data Analyst",
+        "Business Analyst",
+        "Reporting Analyst",
+        "Data Associate"
+      ]
+    },
+    {
+      "id": "ui-ux-designer",
+      "career": "UI/UX Designer",
+      "field": "Design",
+      "education_options": [
+        "Degree in Design",
+        "Degree in Computer Science or related field",
+        "UX/UI certification",
+        "Portfolio-based learning"
+      ],
+      "core_skills": [
+        "user research",
+        "wireframing",
+        "prototyping",
+        "Figma",
+        "visual design",
+        "usability testing"
+      ],
+      "recommended_projects": [
+        "mobile app redesign",
+        "student portal prototype",
+        "e-commerce user experience case study",
+        "accessibility-focused interface"
+      ],
+      "entry_level_roles": [
+        "Junior UI Designer",
+        "UX Designer",
+        "Product Design Intern",
+        "UI/UX Associate"
+      ]
+    }
+  ],
+  "sample_achievable_plan": {
+    "goal": "Become a Software Engineer",
+    "time_horizon": "24 months",
+    "milestones": [
+      {
+        "month_range": "1-3",
+        "focus": "Foundations",
+        "actions": [
+          "Learn one programming language",
+          "Practice basic problem solving",
+          "Learn Git and GitHub",
+          "Build two small projects"
+        ],
+        "success_measure": "At least 2 completed projects published on GitHub."
+      },
+      {
+        "month_range": "4-6",
+        "focus": "Core Development",
+        "actions": [
+          "Learn data structures and algorithms",
+          "Learn SQL and databases",
+          "Build one full-stack or substantial application"
+        ],
+        "success_measure": "One documented project with source code and README."
+      },
+      {
+        "month_range": "7-12",
+        "focus": "Portfolio and Experience",
+        "actions": [
+          "Build 2-3 portfolio projects",
+          "Participate in coding challenges",
+          "Contribute to an open-source project",
+          "Create a professional resume"
+        ],
+        "success_measure": "Portfolio containing at least 3 strong projects."
+      },
+      {
+        "month_range": "13-18",
+        "focus": "Industry Readiness",
+        "actions": [
+          "Apply for internships",
+          "Practice technical interviews",
+          "Improve communication skills",
+          "Complete a collaborative project"
+        ],
+        "success_measure": "Regular internship/job applications and interview practice."
+      },
+      {
+        "month_range": "19-24",
+        "focus": "Career Launch",
+        "actions": [
+          "Apply for entry-level roles",
+          "Customize resume for each role",
+          "Attend career events",
+          "Continue technical learning"
+        ],
+        "success_measure": "Active interview pipeline and applications for suitable entry-level roles."
+      }
+    ]
+  },
+  "student_profile_template": {
+    "student_name": "",
+    "current_education": "",
+    "interests": [],
+    "strengths": [],
+    "skills": [],
+    "career_aspiration": "",
+    "target_career": "",
+    "preferred_learning_style": "",
+    "available_hours_per_week": 0,
+    "target_date": "",
+    "current_progress": 0
+  },
+  "progress_tracking": {
+    "status_options": [
+      "not_started",
+      "in_progress",
+      "completed",
+      "needs_review"
+    ],
+    "metrics": [
+      "courses_completed",
+      "projects_completed",
+      "skills_acquired",
+      "certifications_earned",
+      "internships_completed",
+      "applications_submitted",
+      "interviews_completed"
+    ]
+  },
+  "github_metadata": {
+    "recommended_files": [
+      "README.md",
+      "career_paths.json",
+      "student_profile.json",
+      "roadmap.json"
+    ],
+    "suggested_repository_name": "education-career-achievable-plan",
+    "suggested_topics": [
+      "education",
+      "career-planning",
+      "student-guidance",
+      "career-roadmap",
+      "skills-development",
+      "github"
+    ]
+  }
+}
